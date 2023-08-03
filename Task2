@@ -1,0 +1,11 @@
+// SPDX-License-Identifier: GPL-3.0
+pragma solidity >=0.5.1;
+
+contract helloWorld {
+    function renderHelloWorld(uint num1, uint num2) public pure returns (uint){
+        if (num1 > num2){
+            return num1;
+        }
+        return num2;
+}
+}
